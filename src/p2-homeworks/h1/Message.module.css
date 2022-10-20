@@ -13,13 +13,13 @@
 .content {
     padding:10px;
     border-radius: 5px 5px 5px 0;
-    background: rgba(255, 255, 255, 0.3);
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(146, 45, 45, 0.59));
 }
 
 .angel {
     width: 15px;
     height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(255, 255, 255, 0.3));
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .text {
