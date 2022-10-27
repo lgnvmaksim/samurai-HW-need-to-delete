@@ -1,7 +1,7 @@
 .message {
    display: flex;
     align-items: flex-end;
-    margin:10px
+    margin:10px;
 }
 
 .avatar {
@@ -13,19 +13,21 @@
 .content {
     padding:10px;
     border-radius: 5px 5px 5px 0;
-    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(146, 45, 45, 0.59));
+    background-color: dodgerblue;
 }
 
 .angel {
     width: 15px;
     height: 15px;
-    background: rgba(255, 255, 255, 0.3);
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, dodgerblue 0);
 }
+
 
 .text {
     min-width: 150px;
     max-width: 300px;
     word-wrap: break-word;
+    color:#bbffbb
 }
 
 .name {
@@ -34,8 +36,8 @@
     color:#bbffbb
 }
 
-time {
-    display: flex;
+.time {
+    display: grid;
     justify-content: flex-end;
     color:#bbffbb
 }

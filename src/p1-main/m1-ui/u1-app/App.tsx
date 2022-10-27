@@ -5,7 +5,7 @@ import HW2 from "../../../p2-homeworks/h2/HW2";
 
 function App() {
     return (
-        <div>
+        <div className={s.list}>
             <div>react homeworks:</div>
             <HW1/>
             <HW2/>

@@ -16,7 +16,7 @@ export const Message = (props: MessagePropsType) => {
 
             <div className={a.content}>
                 <div className={a.name}>{props.name}</div>
-                <div className={a.message}>{props.message}</div>
+                <div className={a.text}>{props.message}</div>
                 <div className={a.time}>{props.time}</div>
             </div>
         </div>
